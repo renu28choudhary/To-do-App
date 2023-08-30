@@ -1,0 +1,48 @@
+.app-container {
+  padding: 25px;
+  background-color: deepskyblue;
+  margin: auto;
+  width: 350px;
+  height: min-content;
+  border: 1px solid blue;
+  border-radius: 10px;
+  box-shadow: 10px 9px 10px 5px;
+  text-align: center;
+}
+
+.app-heading {
+  font-size: large;
+  font-weight: bold;
+  padding: 15px;
+  color: blueviolet;
+}
+
+input {
+  background-color: deepskyblue;
+  border: 1px solid blueviolet;
+  margin-right: 20px;
+  color: blue;
+}
+
+input:focus {
+  border: 1px solid blueviolet;
+  outline: none;
+}
+
+button {
+  background-color: deepskyblue;
+  color: blueviolet;
+  height: 25px;
+  width: 75px;
+  border: none;
+}
+
+button:hover {
+  background-color: dodgerblue;
+}
+
+.toDo-list {
+  padding: 10px;
+  color: blue;
+  font-size: larger;
+}
